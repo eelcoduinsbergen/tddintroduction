@@ -9,9 +9,12 @@
 - De drie geboden van TDD
 - TDD en unit tests
 - Wanneer faalt TDD?
-- Canonicalizer bouwen volgens TDD
+- Code rot, SOLID
+
 
 ## Inleiding
+In deze introductie zal ik de basis van TDD bespreken ondersteund met informatie over unit testing. Unit tests zijn niet de enige vorm van automated testing die helpen de kwaliteit van code hoog te houden. Andere vormen zal ik kort benoemen, maar niet in detail behandelen.
+
 Voorbeeld implementatie "canonicalizer" zonder tests met introductie van bugs.
 
 ## Wat is TDD en waarom hebben we het nodig?
@@ -42,6 +45,21 @@ voorbeeld: Canonicalizer
 
 ## De drie geboden van TDD
 
+1. Schrijf nooit ook maar 1 regel productiecode voordat je een falende test hebt geschreven.
+2. Schrijf de meest minimale test die de code laat falen
+3. Schrijf de meest minimale code om de test te laten slagen
 
+Deze drie regels helpen je om gefocussed te blijven op het doel, om te voorkomen overgecompliceerde code te schrijven en de kwaliteit van code hoog te houden.
+
+## Code rot, code smells en desig smells
+Zonder testen is code onderhevig en vele vormen van verotting die ervoor zorgen dat de kwaliteit van de software afneemt, fouten in de software toenemen en de kosten van onderhoud en uitbreiding toeneemt. We kunnen de volgende vormen van dit soort "rot" onderscheiden.
+
+- Rigidity: Zelfs de kleinste wijziging kosten veel tijd om door te voeren.
+- Fragility (Regression): Kleine wijziging in een module zorgen voor bugs in andere delen van het systeem. 
+- Immobility: 
+- Viscosity
+- Needless complexity
+
+### SOLID
 
 
