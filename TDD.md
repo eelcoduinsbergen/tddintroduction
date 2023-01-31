@@ -54,12 +54,18 @@ Deze drie regels helpen je om gefocussed te blijven op het doel, om te voorkomen
 ## Code rot, code smells en desig smells
 Zonder testen is code onderhevig en vele vormen van verotting die ervoor zorgen dat de kwaliteit van de software afneemt, fouten in de software toenemen en de kosten van onderhoud en uitbreiding toeneemt. We kunnen de volgende vormen van dit soort "rot" onderscheiden.
 
-- Rigidity: Zelfs de kleinste wijziging kosten veel tijd om door te voeren.
-- Fragility (Regression): Kleine wijziging in een module zorgen voor bugs in andere delen van het systeem. 
-- Immobility: 
-- Viscosity
-- Needless complexity
+- *Rigidity*: Zelfs de kleinste wijziging kosten veel tijd om door te voeren.
+- *Fragility (Regression)*: Kleine wijziging in een module zorgen voor bugs in andere delen van het systeem. 
+- *Immobility*: Hergebruik van code is onmogelijk of kostbaar
+- *Viscosity*: Simpele aanpassingen vereist aanpassingen op vele vlakken en in vele lagen, zoals infrastructuur, database, frontend etc. 
+- *Needless complexity*:* Software waarin wordt geprobeerd alles af te hangen wat eventueel zou kunnen gebeuren waarbij er vele uitbreidingen ontstaan om die siuaties af te kunnen handelen.
+
+Al deze vormen zijn vaak te herleiden naar wat tight coupling wordt genoemd, een harde afhankelijkheid tussen verschillende onderdelen van een geautomatiseerd systeem.
 
 ### SOLID
 
-
+- Single Responsibility Principle
+- Open/Closed Principle
+- Liskov Subsitition Principle
+- Interface Segregation Principle
+- Dependency Inversion Principle
