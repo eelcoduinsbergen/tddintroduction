@@ -78,6 +78,25 @@ SOLID is geen doel, maar een middel om de software te schrijven die zoveel mogel
 
 Tests vormen je vangnet. Tests zorgen ervoor dat je niet bang hoeft te zijn.
 
+We gaan nu verder in op de basis van Unit Testing.
+
+# Unit Tests
+
+Verschillende soorten tests:
+
+- **Unit Test**: valideer het gedrag van een enkele unit (class, method) zonder afhankelijkheden
+- **Integration test**: valideer het gedrag van meerdere samenwerkende units of het geheel aan units.
+- **Acceptatietesten / end-to-end**: valideer het gedrag van de software vanuit de context van de eindgebruiker (mens of systeem).
+
+
+## F.I.R.S.T.
+
+- Fast
+- Indipendent
+- Repeatable
+- Self validatable
+- In time
+
 ## TDD Dojo
 ### Katas
 - FizzBuzz kata: https://codingdojo.org/kata/FizzBuzz/
