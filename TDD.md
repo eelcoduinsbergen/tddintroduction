@@ -10,6 +10,8 @@
 - TDD en unit tests
 - Wanneer faalt TDD?
 - Code rot, SOLID
+- TDD Dojo
+- Meer leren en verder lezen.
 
 
 ## Inleiding
@@ -54,11 +56,11 @@ Deze drie regels helpen je om gefocussed te blijven op het doel, om te voorkomen
 ## Code rot, code smells en desig smells
 Zonder testen is code onderhevig en vele vormen van verotting die ervoor zorgen dat de kwaliteit van de software afneemt, fouten in de software toenemen en de kosten van onderhoud en uitbreiding toeneemt. We kunnen de volgende vormen van dit soort "rot" onderscheiden.
 
-- *Rigidity*: Zelfs de kleinste wijziging kosten veel tijd om door te voeren.
-- *Fragility (Regression)*: Kleine wijziging in een module zorgen voor bugs in andere delen van het systeem. 
-- *Immobility*: Hergebruik van code is onmogelijk of kostbaar
-- *Viscosity*: Simpele aanpassingen vereist aanpassingen op vele vlakken en in vele lagen, zoals infrastructuur, database, frontend etc. 
-- *Needless complexity*:* Software waarin wordt geprobeerd alles af te hangen wat eventueel zou kunnen gebeuren waarbij er vele uitbreidingen ontstaan om die siuaties af te kunnen handelen.
+- **Rigidity**: Zelfs de kleinste wijziging kosten veel tijd om door te voeren.
+- **Fragility (Regression)**: Kleine wijziging in een module zorgen voor bugs in andere delen van het systeem. 
+- **Immobility**: Hergebruik van code is onmogelijk of kostbaar
+- **Viscosity**: Simpele aanpassingen vereist aanpassingen op vele vlakken en in vele lagen, zoals infrastructuur, database, frontend etc. 
+- **Needless complexity**: Software waarin wordt geprobeerd alles af te hangen wat eventueel zou kunnen gebeuren waarbij er vele uitbreidingen ontstaan om die siuaties af te kunnen handelen.
 
 Al deze vormen zijn vaak te herleiden naar wat tight coupling wordt genoemd, een harde afhankelijkheid tussen verschillende onderdelen van een geautomatiseerd systeem.
 
@@ -69,3 +71,21 @@ Al deze vormen zijn vaak te herleiden naar wat tight coupling wordt genoemd, een
 - Liskov Subsitition Principle
 - Interface Segregation Principle
 - Dependency Inversion Principle
+
+SOLID is geen doel, maar een middel om de software te schrijven die zoveel mogelijk "loosely coupled" is en daarmee goed testbaar en dus onderhoudbaar en aanpasbaar.
+
+### Hoe helpen tests?
+
+Tests vormen je vangnet. Tests zorgen ervoor dat je niet bang hoeft te zijn.
+
+## TDD Dojo
+### Katas
+- FizzBuzz kata: https://codingdojo.org/kata/FizzBuzz/
+
+
+### Meer leren en verder lezen
+**Websites**
+
+**Boeken**
+- Test Driven Development: By Example, Kent Beck: https://www.amazon.com/Test-Driven-Development-Kent-Beck/dp/0321146530
+- Unit Testing, Vladimir Khorikov: https://www.amazon.com/Unit-Testing-Principles-Practices-Patterns/dp/1617296279
