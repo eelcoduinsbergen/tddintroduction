@@ -9,5 +9,5 @@
 
 ## Benodigdheden
 - Laptop met Visual Studio
+- Enthousiasme en volledig inzet ;)
 - Bereid eventueel vragen of onderwerpen voor die je graag wilt bespreken.
-- Volledige inzet ;)
