@@ -97,9 +97,16 @@ Verschillende soorten tests:
 - Self validatable
 - In time
 
+## TDD Techniques
+- Faking
+- Triangulation
+- Obvious Implementation
+
 ## TDD Dojo
 ### Katas
 - FizzBuzz kata: https://codingdojo.org/kata/FizzBuzz/
+- Mars Rover: http://tddbuddy.com/katas/Mars%20Rover.pdf
+- Laundry Reservation: http://tddbuddy.com/katas/Laundry%20Reservation.pdf
 
 
 ### Meer leren en verder lezen
