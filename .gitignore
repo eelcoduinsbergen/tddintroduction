@@ -397,11 +397,3 @@ FodyWeavers.xsd
 # JetBrains Rider
 *.sln.iml
 TDD-slides.html
-TDD-slides.md
-TDDIntro.Kata/TDDIntro.Kata/TDDIntro.Kata.csproj
-TDDIntro.Kata/TDDIntro.Kata/MarsRover/Direction.cs
-TDDIntro.Kata/TDDIntro.Kata/MarsRover/MarsRover.cs
-TDDIntro.Kata/TDDIntro.Kata/MarsRover/Position.cs
-TDDIntro.Kata/TDDIntro.Tests/LaundryReservationTests.cs
-TDDIntro.Kata/TDDIntro.Tests/MarsRoverTests.cs
-TDDIntro.Kata/TDDIntro.Tests/TDDIntro.Tests.csproj
