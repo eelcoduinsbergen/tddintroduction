@@ -6,24 +6,13 @@ theme: gaia
 # Test Driven Development
 ## Agenda
 
-- Warm-up
-- Introductie TDD
+- Warming up
+- Wat, waarom en hoe TDD
+- Pauze
+- Introductie Unit Testing
+- Korte pauze
 - TDD Dojo
-- Here, There, Everywhere: hoe nu verder?
-
----
-<!-- _class: lead-->
-# Onderwerpen
-
-- Inleiding - Waarom TDD?   
-- Code rot
-- Hoe kan TDD helpen?
-- Misverstanden
-- "red-green-refactor"
-- De drie wetten
-- TDD en unit tests
-- Wanneer faalt TDD?
-
+- Here, There, Everywhere: Hoe nu verder?
 
 ---
 <!-- _class: lead-->
@@ -57,14 +46,12 @@ theme: gaia
 
 ---
 # Red Green Refactor
-
 1. Schrijf een falende test
 2. Schrijf code om de falende test te laten slagen
 3. Refactor de code
 
 --- 
 # Drie wetten
-
 1. Schrijf geen regel productiecode voordat je een falende test hebt geschreven.
 2. Schrijf de meest minimale test die de code laat falen
 3. Schrijf de meest minimale code om de test te laten slagen
@@ -80,19 +67,47 @@ theme: gaia
 ## TDD Canonicalizer
 ---
 <!-- _class: lead-->
-# Unit Testing
+# Introductie Unit Testing met xUnit
+---
+# Soorten tests
+- End to End tests
+- Integratie tests
+- Unit Tests
 ---
 
 # Regels
-
 - Fast
-- Indipendent
+- Independent
 - Repeatable
 - Self validatable
 - In time
 
 ---
 <!-- _class: lead-->
-# 
+#  Arrange, Act, Assert
+
 ---
-# Mocking
+# Het probleem van afhankelijkheden
+- Dependency injection
+- Test doubles: Fake, stub en mock
+---
+# Fake
+Werkende implementatie van een class, maar afwijkend van product. Zoals een database repository.
+
+---
+# Stub
+Een een voorgedefinieerde set aan gegevens die een productiedatabron zoals een service of database vervangt.
+
+Wordt gebruikt om output van de SUT te verifieren.
+
+Voorbeeld met Moq
+
+---
+# Mock
+Een class die productiecode vervangt die operaties zonder verifieerbare output uitvoeren. Zoals een e-mail service.
+
+Wordt gebruikt om het gedrag van de SUT te verifieren.
+
+Voorbeeld met Moq.
+
+
