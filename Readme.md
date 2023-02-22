@@ -2,10 +2,9 @@
 
 ## Agenda
 - Warming up (15m)
-- Wat, waarom en hoe TDD. (45m)
-- Introductie unit testing in .NET (45m)
-- Vragen en discussie (30m)
-- TDD Dojo: Samen een kata uitvoeren  (2u)
+- Wat, waarom en hoe TDD (1u)
+- TDD Dojo (2u)
+- Here, There, Everywhere: Hoe nu verder?
 
 ## Benodigdheden
 - Laptop met Visual Studio
