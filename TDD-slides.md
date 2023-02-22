@@ -100,14 +100,10 @@ Een een voorgedefinieerde set aan gegevens die een productiedatabron zoals een s
 
 Wordt gebruikt om output van de SUT te verifieren.
 
-Voorbeeld met Moq
-
 ---
 # Mock
 Een class die productiecode vervangt die operaties zonder verifieerbare output uitvoeren. Zoals een e-mail service.
 
 Wordt gebruikt om het gedrag van de SUT te verifieren.
-
-Voorbeeld met Moq.
 
 
