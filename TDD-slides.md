@@ -70,7 +70,20 @@ theme: gaia
 3. Schrijf de meest minimale code om de test te laten slagen
 
 ---
-# F.I.R.S.T.
+# Technieken
+- Faking
+- Triangulation
+- Obvious Implementation
+---
+<!-- _class: lead-->
+# Demo
+## TDD Canonicalizer
+---
+<!-- _class: lead-->
+# Unit Testing
+---
+
+# Regels
 
 - Fast
 - Indipendent
@@ -80,5 +93,6 @@ theme: gaia
 
 ---
 <!-- _class: lead-->
-# Demo
-## TDD Canonicalizer
+# 
+---
+# Mocking
