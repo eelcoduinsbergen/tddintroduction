@@ -1,9 +1,12 @@
 # TDD Introductie
 
 ## Agenda
-- Warming up (15m)
-- Wat, waarom en hoe TDD (1u)
-- TDD Dojo (2u)
+- Warming up
+- Wat, waarom en hoe TDD
+- Pauze
+- Introductie Unit Testing
+- Pauze
+- TDD Dojo
 - Here, There, Everywhere: Hoe nu verder?
 
 ## Benodigdheden
