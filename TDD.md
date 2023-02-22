@@ -88,7 +88,6 @@ Verschillende soorten tests:
 - **Integration test**: valideer het gedrag van meerdere samenwerkende units of het geheel aan units.
 - **Acceptatietesten / end-to-end**: valideer het gedrag van de software vanuit de context van de eindgebruiker (mens of systeem).
 
-
 ## F.I.R.S.T.
 
 - Fast

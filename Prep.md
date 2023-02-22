@@ -1,0 +1,7 @@
+- Whiteboard neerzetten
+- Kolom voor verwachtingen 
+- Kolom voor "Question balloons" en question balloons toelichten
+    - Iedereen mag vragen op een geeltje zetten en ophangen
+    - Als een vraag al beantwoord wordt tijdens de presentatie mag je hem weer weghalen
+    - Behandel de overgebleven vragen aan het eind.
+- Kolom voor "Here, There, Everywhere" maken
