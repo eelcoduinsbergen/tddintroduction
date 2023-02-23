@@ -9,7 +9,6 @@
 
   <ItemGroup>
     <Folder Include="FizzBuzz\" />
-    <Folder Include="LaundryReservation\" />
   </ItemGroup>
 
 </Project>

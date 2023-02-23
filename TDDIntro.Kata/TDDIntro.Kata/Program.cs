@@ -1,15 +1,13 @@
 ﻿// See https://aka.ms/new-console-template for more information
 using TDDIntro.Kata.Canonicalizer;
 
-Console.WriteLine(FailingCanonicalizer.Canonicalize("Groenten zijn goed voor iedereen"));
-Console.WriteLine(FailingCanonicalizer.Canonicalize("zijn groenten iedereen goed voor"));
-Console.WriteLine(FailingCanonicalizer.Canonicalize("voor groenten Zijn IEDEREEN goed"));
+//happy flow
+Console.WriteLine(FailingCanonicalizer.Canonicalize("best song radiohead"));
+Console.WriteLine(FailingCanonicalizer.Canonicalize("best radiohead song"));
+Console.WriteLine(FailingCanonicalizer.Canonicalize("radiohead best song"));
 
 
-//first error: fix it
-//Console.WriteLine(FailingCanonicalizer.Canonicalize(null));
-
-//extra wite spaces: fix it
-//Console.WriteLine(FailingCanonicalizer.Canonicalize("voor             groenten            Zijn IEDEREEN goed"));
+//first error
+//extra white spaces
 
 Console.Read();
